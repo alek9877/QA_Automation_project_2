@@ -25,6 +25,7 @@ namespace AutomationCourse4Project
         [Test]
         public void test01_GoToApp()
         {
+            // promena
             bool passed = false;
 
             driver.Navigate().GoToUrl("http://ornament.esy.es/");
