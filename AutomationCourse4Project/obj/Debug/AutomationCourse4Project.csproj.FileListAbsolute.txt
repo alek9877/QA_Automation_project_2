@@ -64,3 +64,13 @@ C:\Users\aleksandar.kostic\Desktop\Automation TN akademy\Kurs 8 - TNation Automa
 C:\Users\aleksandar.kostic\Desktop\Automation TN akademy\Kurs 8 - TNation Automation\AutomationCourse7Project\AutomationCourse4Project\obj\Debug\AutomationCourse4Project.csprojResolveAssemblyReference.cache
 C:\Users\aleksandar.kostic\Desktop\Automation TN akademy\Kurs 8 - TNation Automation\AutomationCourse7Project\AutomationCourse4Project\obj\Debug\AutomationCourse4Project.dll
 C:\Users\aleksandar.kostic\Desktop\Automation TN akademy\Kurs 8 - TNation Automation\AutomationCourse7Project\AutomationCourse4Project\obj\Debug\AutomationCourse4Project.pdb
+C:\AllProjects\QA_Automation_project_2\AutomationCourse4Project\bin\Debug\AutomationCourse4Project.dll
+C:\AllProjects\QA_Automation_project_2\AutomationCourse4Project\bin\Debug\AutomationCourse4Project.pdb
+C:\AllProjects\QA_Automation_project_2\AutomationCourse4Project\bin\Debug\nunit.framework.dll
+C:\AllProjects\QA_Automation_project_2\AutomationCourse4Project\bin\Debug\WebDriver.dll
+C:\AllProjects\QA_Automation_project_2\AutomationCourse4Project\bin\Debug\WebDriver.Support.dll
+C:\AllProjects\QA_Automation_project_2\AutomationCourse4Project\bin\Debug\nunit.framework.xml
+C:\AllProjects\QA_Automation_project_2\AutomationCourse4Project\bin\Debug\WebDriver.xml
+C:\AllProjects\QA_Automation_project_2\AutomationCourse4Project\bin\Debug\WebDriver.Support.xml
+C:\AllProjects\QA_Automation_project_2\AutomationCourse4Project\obj\Debug\AutomationCourse4Project.dll
+C:\AllProjects\QA_Automation_project_2\AutomationCourse4Project\obj\Debug\AutomationCourse4Project.pdb

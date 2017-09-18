@@ -25,7 +25,6 @@ namespace AutomationCourse4Project
         [Test]
         public void test01_GoToApp()
         {
-            // promena
             bool passed = false;
 
             driver.Navigate().GoToUrl("http://ornament.esy.es/");
@@ -157,7 +156,7 @@ namespace AutomationCourse4Project
             else
                 Console.WriteLine("Prikazuje se poruka da je polje 'Phone number' obavezno");
 
-            TypeText("//input[@name='fullname']", "Nikola Djurovic");
+            TypeText("//input[@name='fullname']", "Aleksandar Kostic");
             TypeText("//input[@name='phone']", "123123123");
 
             SystemClick("//input[@value='Confirm']");
