@@ -1,0 +1,177 @@
+    ======  ======
+    Time:6/21/2017 10:05:21 AM
+    Title: Initiate log
+    Message: 
+    Time:6/21/2017 10:05:21 AM
+    Title: Initiate InternalManager
+    Message: Trying to Validate License
+    Time:6/21/2017 10:05:21 AM
+    Title: Requesting EVT
+    Message: EVTP
+    Time:6/21/2017 10:05:21 AM
+    Title: Requesting Validation
+    Message: ILMValidate
+    Time:6/21/2017 10:05:21 AM
+    Title: LICENSER
+    Message: TRL MODE
+    Time:6/21/2017 10:05:21 AM
+    Title: LICENSER
+    Message: DS LEFT-259
+    Time:6/21/2017 10:05:21 AM
+    Title: LICENSER
+    Message: DT MARK PASSED-259.00:00:00
+    Time:6/21/2017 10:05:21 AM
+    Title: ILMValidate action
+    Message: LIC
+    Time:6/21/2017 10:05:22 AM
+    Title: Access to the path 'C:\ProgramData\Telerik\Hash.lic' is denied.
+    Message:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Telerik.Licensing.Licenser.ReadHashPass()
+    Time:6/21/2017 10:05:22 AM
+    Title: LICENSER - TGO
+    Message: Start
+    Time:6/21/2017 10:05:23 AM
+    Title: LICENSER - TGO
+    Message: Object reference not set to an instance of an object.
+    Entering constructor for: Telerik.CommonPackage.Telerik_CommonPackagePackage
+    Entering Initialize() of: Telerik.CommonPackage.Telerik_CommonPackagePackage
+    TestWindow package loaded
+    Web method running: [https://app.vssps.visualstudio.com/_apis/connectionData?connectOptions=None&lastChangeId=243&lastChangeId64=243] (GET)connectionData[connectionData]
+    devenv.exe Information: 0 : 6/21/2017 8:05:37 AM:  - TokenCache: Deserialized 2 items to token cache.
+    devenv.exe Information: 0 : 6/21/2017 8:05:37 AM:  - AuthenticationContext: ADAL .NET with assembly version '2.16.0.0', file version '2.16.20422.1202' and informational version '7329346b1c69910ce7abd66c3f8a918c307827a1' is running...
+    devenv.exe Information: 0 : 6/21/2017 8:05:37 AM: 76abf5d2-30e0-460f-a2fe-3accf974afd5 - AcquireTokenHandlerBase: === Token Acquisition started:
+	Authority: https://login.microsoftonline.com/f8cdef31-a31e-4b4a-93e4-5f571e91255a/
+	Resource: 499b84ac-1321-427f-aa17-267ca6975798
+	ClientId: 872cd9fa-d31f-45e0-9eab-6e460a02d1f1
+	CacheType: Microsoft.VisualStudio.Services.Client.AccountManagement.AccountManagerAdalCache (2 items)
+	Authentication Target: User
+	
+    Informational: ------ Load Playlist started ------
+    devenv.exe Information: 0 : 6/21/2017 8:05:37 AM: 76abf5d2-30e0-460f-a2fe-3accf974afd5 - TokenCache: Looking up cache for a token...
+    devenv.exe Information: 0 : 6/21/2017 8:05:37 AM: 76abf5d2-30e0-460f-a2fe-3accf974afd5 - TokenCache: An item matching the requested resource was found in the cache
+    devenv.exe Information: 0 : 6/21/2017 8:05:37 AM: 76abf5d2-30e0-460f-a2fe-3accf974afd5 - TokenCache: An expired or near expiry token was found in the cache
+    devenv.exe Information: 0 : 6/21/2017 8:05:37 AM: 76abf5d2-30e0-460f-a2fe-3accf974afd5 - TokenCache: A matching item (access token or refresh token or both) was found in the cache
+    devenv.exe Information: 0 : 6/21/2017 8:05:37 AM: 76abf5d2-30e0-460f-a2fe-3accf974afd5 - <RefreshAccessTokenAsync>d__11: Refreshing access token...
+    Informational: ========== Load Playlist finished (0:00:00.0410305) ==========
+    Informational: ------ Discover test started ------
+    devenv.exe Information: 0 : 6/21/2017 8:05:38 AM: 76abf5d2-30e0-460f-a2fe-3accf974afd5 - AcquireTokenSilentHandler: No token matching arguments found in the cache
+    devenv.exe Error: 0 : 6/21/2017 8:05:38 AM: 76abf5d2-30e0-460f-a2fe-3accf974afd5 - <RunAsync>d__0: Microsoft.IdentityModel.Clients.ActiveDirectory.AdalSilentTokenAcquisitionException: Failed to acquire token silently. Call method AcquireToken
+   at Microsoft.IdentityModel.Clients.ActiveDirectory.AcquireTokenSilentHandler.SendTokenRequestAsync()
+   at Microsoft.IdentityModel.Clients.ActiveDirectory.AcquireTokenHandlerBase.<RunAsync>d__0.MoveNext()
+	ErrorCode: failed_to_acquire_token_silently
+    devenv.exe Information: 0 : 6/21/2017 8:05:39 AM: 7d12989f-5346-4198-8ae8-375f4252dc22 - AcquireTokenHandlerBase: === Token Acquisition started:
+	Authority: https://login.microsoftonline.com/f8cdef31-a31e-4b4a-93e4-5f571e91255a/
+	Resource: 499b84ac-1321-427f-aa17-267ca6975798
+	ClientId: 872cd9fa-d31f-45e0-9eab-6e460a02d1f1
+	CacheType: Microsoft.VisualStudio.Services.Client.AccountManagement.AccountManagerAdalCache (2 items)
+	Authentication Target: User
+	
+    devenv.exe Information: 0 : 6/21/2017 8:05:39 AM: 7d12989f-5346-4198-8ae8-375f4252dc22 - TokenCache: Looking up cache for a token...
+    devenv.exe Information: 0 : 6/21/2017 8:05:39 AM: 7d12989f-5346-4198-8ae8-375f4252dc22 - TokenCache: An item matching the requested resource was found in the cache
+    devenv.exe Information: 0 : 6/21/2017 8:05:39 AM: 7d12989f-5346-4198-8ae8-375f4252dc22 - TokenCache: An expired or near expiry token was found in the cache
+    devenv.exe Information: 0 : 6/21/2017 8:05:39 AM: 7d12989f-5346-4198-8ae8-375f4252dc22 - TokenCache: A matching item (access token or refresh token or both) was found in the cache
+    devenv.exe Information: 0 : 6/21/2017 8:05:39 AM: 7d12989f-5346-4198-8ae8-375f4252dc22 - <RefreshAccessTokenAsync>d__11: Refreshing access token...
+    devenv.exe Information: 0 : 6/21/2017 8:05:40 AM: 7d12989f-5346-4198-8ae8-375f4252dc22 - AcquireTokenSilentHandler: No token matching arguments found in the cache
+    devenv.exe Error: 0 : 6/21/2017 8:05:40 AM: 7d12989f-5346-4198-8ae8-375f4252dc22 - <RunAsync>d__0: Microsoft.IdentityModel.Clients.ActiveDirectory.AdalSilentTokenAcquisitionException: Failed to acquire token silently. Call method AcquireToken
+   at Microsoft.IdentityModel.Clients.ActiveDirectory.AcquireTokenSilentHandler.SendTokenRequestAsync()
+   at Microsoft.IdentityModel.Clients.ActiveDirectory.AcquireTokenHandlerBase.<RunAsync>d__0.MoveNext()
+	ErrorCode: failed_to_acquire_token_silently
+    Informational: NUnit Adapter 3.7.0.0: Test discovery starting
+    devenv.exe Information: 0 : 6/21/2017 8:05:41 AM: 710099a3-71f5-48ff-8a8b-0e8ae1c3ec53 - AcquireTokenHandlerBase: === Token Acquisition started:
+	Authority: https://login.microsoftonline.com/f8cdef31-a31e-4b4a-93e4-5f571e91255a/
+	Resource: 499b84ac-1321-427f-aa17-267ca6975798
+	ClientId: 872cd9fa-d31f-45e0-9eab-6e460a02d1f1
+	CacheType: Microsoft.VisualStudio.Services.Client.AccountManagement.AccountManagerAdalCache (2 items)
+	Authentication Target: User
+	
+    devenv.exe Information: 0 : 6/21/2017 8:05:41 AM: 710099a3-71f5-48ff-8a8b-0e8ae1c3ec53 - TokenCache: Looking up cache for a token...
+    devenv.exe Information: 0 : 6/21/2017 8:05:41 AM: 710099a3-71f5-48ff-8a8b-0e8ae1c3ec53 - TokenCache: An item matching the requested resource was found in the cache
+    devenv.exe Information: 0 : 6/21/2017 8:05:41 AM: 710099a3-71f5-48ff-8a8b-0e8ae1c3ec53 - TokenCache: An expired or near expiry token was found in the cache
+    devenv.exe Information: 0 : 6/21/2017 8:05:41 AM: 710099a3-71f5-48ff-8a8b-0e8ae1c3ec53 - TokenCache: A matching item (access token or refresh token or both) was found in the cache
+    devenv.exe Information: 0 : 6/21/2017 8:05:41 AM: 710099a3-71f5-48ff-8a8b-0e8ae1c3ec53 - <RefreshAccessTokenAsync>d__11: Refreshing access token...
+    devenv.exe Information: 0 : 6/21/2017 8:05:41 AM: 710099a3-71f5-48ff-8a8b-0e8ae1c3ec53 - AcquireTokenSilentHandler: No token matching arguments found in the cache
+    devenv.exe Error: 0 : 6/21/2017 8:05:41 AM: 710099a3-71f5-48ff-8a8b-0e8ae1c3ec53 - <RunAsync>d__0: Microsoft.IdentityModel.Clients.ActiveDirectory.AdalSilentTokenAcquisitionException: Failed to acquire token silently. Call method AcquireToken
+   at Microsoft.IdentityModel.Clients.ActiveDirectory.AcquireTokenSilentHandler.SendTokenRequestAsync()
+   at Microsoft.IdentityModel.Clients.ActiveDirectory.AcquireTokenHandlerBase.<RunAsync>d__0.MoveNext()
+	ErrorCode: failed_to_acquire_token_silently
+    Web method running: [https://app.vssps.visualstudio.com/_apis/Token/SessionTokens?isPublic=False] (POST)SessionTokens[Token]
+    Informational: NUnit Adapter 3.7.0.0: Test discovery complete
+    Web method running: [https://app.vssps.visualstudio.com/_apis/connectionData?connectOptions=None&lastChangeId=243&lastChangeId64=243] (GET)connectionData[connectionData]
+    Informational: ========== Discover test finished: 2 found (0:00:04.3832056) ==========
+    Web method response: [https://app.vssps.visualstudio.com/_apis/connectionData?connectOptions=None&lastChangeId=243&lastChangeId64=243] (GET)connectionData[connectionData] 1588 ms
+    Web method running: [https://app.vsspsext.visualstudio.com/_apis/connectionData?connectOptions=None&lastChangeId=30465&lastChangeId64=30465] (GET)connectionData[connectionData]
+    Web method response: [https://app.vsspsext.visualstudio.com/_apis/connectionData?connectOptions=None&lastChangeId=30465&lastChangeId64=30465] (GET)connectionData[connectionData] 915 ms
+    Web method running: [https://app.vsspsext.visualstudio.com/_apis/Profile/Profiles/me?details=true&withattributes=false&coreattributes=Minimal%2CEmail%2CAvatar%2CDisplayName%2CAll] (GET)me[Profile]
+    Web method response: [https://app.vsspsext.visualstudio.com/_apis/Profile/Profiles/me?details=true&withattributes=false&coreattributes=Minimal%2CEmail%2CAvatar%2CDisplayName%2CAll] (GET)me[Profile] 791 ms
+    Web method running: [https://app.vsspsext.visualstudio.com/_apis/Profile/Locations?profilePageType=Update] (GET)Locations[Profile]
+    Web method response: [https://app.vsspsext.visualstudio.com/_apis/Profile/Locations?profilePageType=Update] (GET)Locations[Profile] 193 ms
+    Web method running: [https://app.vsspsext.visualstudio.com/_apis/Profile/Settings/ProfileRefreshInterval] (GET)ProfileRefreshInterval[Profile]
+    Web method response: [https://app.vsspsext.visualstudio.com/_apis/Profile/Settings/ProfileRefreshInterval] (GET)ProfileRefreshInterval[Profile] 192 ms
+    Web method running: [https://app.vsspsext.visualstudio.com/_apis/Profile/Profiles/me/Attributes?partition=VisualStudio.14_PreferredProfile&modifiedafterrevision=541589] (GET)Attributes[Profile]
+    Web method running: [https://app.vsspsext.visualstudio.com/_apis/Profile/Profiles/me/Avatar?size=Small] (GET)Avatar[Profile]
+    Web method running: [https://app.vsspsext.visualstudio.com/_apis/Profile/Profiles/me/Avatar?size=Large] (GET)Avatar[Profile]
+    Web method response: [https://app.vsspsext.visualstudio.com/_apis/Profile/Profiles/me/Attributes?partition=VisualStudio.14_PreferredProfile&modifiedafterrevision=541589] (GET)Attributes[Profile] 254 ms
+    Web method response: [https://app.vsspsext.visualstudio.com/_apis/Profile/Profiles/me/Avatar?size=Small] (GET)Avatar[Profile] 585 ms
+    Web method response: [https://app.vsspsext.visualstudio.com/_apis/Profile/Profiles/me/Avatar?size=Large] (GET)Avatar[Profile] 785 ms
+    Informational: ------ Discover test started ------
+    Informational: NUnit Adapter 3.7.0.0: Test discovery starting
+    Informational: NUnit Adapter 3.7.0.0: Test discovery complete
+    Informational: ========== Discover test finished: 2 found (0:00:00.3550056) ==========
+    Informational: ------ Run test started ------
+    Informational: NUnit Adapter 3.7.0.0: Test execution started
+    Informational: Running all tests in D:\AutomationCourse5Project\AutomationCourse4Project\bin\Debug\AutomationCourse4Project.dll
+    Informational: NUnit3TestExecutor converted 2 of 2 NUnit test cases
+    Warning: SetUp failed for test fixture AutomationCourse4Project.Execution
+    Warning: System.InvalidOperationException : unknown error: cannot get automation extension
+from unknown error: page could not be found: chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Windows NT 10.0.15063 x86_64)
+    Warning:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWindow.Maximize()
+   at AutomationCourse4Project.Core.Initialize() in D:\AutomationCourse5Project\AutomationCourse4Project\Core.cs:line 29
+   at AutomationCourse4Project.Execution.SetUp() in D:\AutomationCourse5Project\AutomationCourse4Project\Execution.cs:line 21
+    Informational: NUnit Adapter 3.7.0.0: Test execution complete
+    Informational: ========== Run test finished: 2 run (0:00:21.7345629) ==========
+    Informational: ------ Discover test started ------
+    Informational: NUnit Adapter 3.7.0.0: Test discovery starting
+    Informational: NUnit Adapter 3.7.0.0: Test discovery complete
+    Informational: ========== Discover test finished: 3 found (0:00:00.3281795) ==========
+    Informational: ------ Run test started ------
+    Informational: NUnit Adapter 3.7.0.0: Test execution started
+    Informational: Running all tests in D:\AutomationCourse5Project\AutomationCourse4Project\bin\Debug\AutomationCourse4Project.dll
+    Informational: NUnit3TestExecutor converted 3 of 3 NUnit test cases
+    Warning: SetUp failed for test fixture AutomationCourse4Project.Execution
+    Warning: System.InvalidOperationException : unknown error: cannot get automation extension
+from unknown error: page could not be found: chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Windows NT 10.0.15063 x86_64)
+    Warning:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWindow.Maximize()
+   at AutomationCourse4Project.Core.Initialize() in D:\AutomationCourse5Project\AutomationCourse4Project\Core.cs:line 29
+   at AutomationCourse4Project.Execution.SetUp() in D:\AutomationCourse5Project\AutomationCourse4Project\Execution.cs:line 21
+    Informational: NUnit Adapter 3.7.0.0: Test execution complete
+    Informational: ========== Run test finished: 3 run (0:00:18.7214106) ==========
+    Informational: ------ Discover test started ------
+    Informational: NUnit Adapter 3.7.0.0: Test discovery starting
+    Informational: NUnit Adapter 3.7.0.0: Test discovery complete
+    Informational: ========== Discover test finished: 2 found (0:00:00.3528138) ==========
+    Informational: ------ Run test started ------
+    Informational: NUnit Adapter 3.7.0.0: Test execution started
+    Informational: Running all tests in D:\AutomationCourse5Project\AutomationCourse4Project\bin\Debug\AutomationCourse4Project.dll
+    Informational: NUnit3TestExecutor converted 2 of 2 NUnit test cases
+    Warning: SetUp failed for test fixture AutomationCourse4Project.Execution
+    Warning: System.InvalidOperationException : unknown error: cannot get automation extension
+from chrome not reachable
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Windows NT 10.0.15063 x86_64)
+    Warning:    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWindow.Maximize()
+   at AutomationCourse4Project.Core.Initialize() in D:\AutomationCourse5Project\AutomationCourse4Project\Core.cs:line 29
+   at AutomationCourse4Project.Execution.SetUp() in D:\AutomationCourse5Project\AutomationCourse4Project\Execution.cs:line 21
+    Informational: NUnit Adapter 3.7.0.0: Test execution complete
+    Informational: ========== Run test finished: 2 run (0:00:19.1181302) ==========
